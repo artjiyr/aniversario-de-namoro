@@ -18,11 +18,11 @@ body {
 }
 
 :root {
-    --cor0:#D18EAF;
+    --cor0:#e08fb0;
     --cor1:#E15B8F;
-    --cor2:#7B264C;
+    --cor2:#7b263f;
     --cor3:#51132D;
-    --cor4:#3D0624;
+    --cor4:#3d0619;
 
     --font0: "Cinzel", serif;
     --font1:"Parisienne", cursive;
@@ -61,20 +61,13 @@ header > p {
     padding-bottom: 10px;
 }
 
-a:hover {
-    background-color: var(--cor2);
-    color: white;
-    border-radius: 10px;
-    transition-duration: 0.8s;
-}
-
 article {
     display: block;
     margin: auto;
 }
 
 main {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.893);
     display: block;
     margin: auto;
     min-width: 300px;
@@ -104,4 +97,35 @@ h2 {
     font-size: 2.2em;
     text-align: left;
     margin: 10px;
+}
+
+iframe{
+    width: 850px;
+    height: 550px;
+    margin: 20px;
+}
+
+section#botoes > p{
+    display: block;
+    margin: auto;
+}
+
+section#botoes a {
+    text-decoration: 0;
+    color: var(--cor3);
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 1.6em;
+}
+
+section#botoes a:hover {
+    background-color: var(--cor1);
+    color: aliceblue;
+    border-radius: 5px;
+    transition-duration: 0.6s;
+    padding: 5px;
+}
+
+.link {
+    text-align: center;
 }
