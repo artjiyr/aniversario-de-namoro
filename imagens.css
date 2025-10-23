@@ -1,2 +1,43 @@
 @charset "UTF-8";
 
+:root {
+    --cor0:#e08fb0;
+    --cor1:#E15B8F;
+    --cor2:#7b263f;
+    --cor3:#51132D;
+    --cor4:#3d0619;
+
+    --font0: "Cinzel", serif;
+    --font1:"Parisienne", cursive;
+    --font2: "Cormorant", serif ;
+
+
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+body > img{
+    text-align: top;
+}
+
+img {
+    width: 100vw;
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.477);    
+}
+
+
+

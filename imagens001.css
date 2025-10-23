@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 86vw;
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
+    border-radius: 10px;
+}
