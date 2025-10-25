@@ -119,14 +119,16 @@ section#botoes a {
     color: var(--cor3);
     margin-left: 15px;
     margin-top: 30px;
+    padding: 4px;
 }
 
 section#botoes img {
-    width: 33px;
-    height: 33px;
+    width: 40px;
+    height: 40px;
     background-color: var(--cor0);
     padding: 2px;
-    border-radius: 45px;
+    border-radius: 40px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.509);
 }
 
 section#botoes img:hover {
@@ -150,3 +152,11 @@ section#iframe {
     max-width: 485px;
 }
 
+footer {
+    background-image: linear-gradient(to top, var(--cor4), var(--cor2), var(--cor0));
+    color: var(--cor0);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: var(--font1);
+}
