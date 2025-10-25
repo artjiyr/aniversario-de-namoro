@@ -154,7 +154,7 @@ section#iframe {
 
 footer {
     background-image: linear-gradient(to top, var(--cor4), var(--cor2), var(--cor0));
-    color: var(--cor0);
+    color: white;
     padding: 10px;
     text-align: center;
     font-size: 1.8em;
