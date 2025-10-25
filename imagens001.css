@@ -11,10 +11,9 @@
 }
 
 img {
-    width: 86vw;
+    width: 100vw;
     display: block;
     margin: auto;
     max-width: 1000px;
-    min-width: 300px;
     border-radius: 10px;
 }

@@ -100,10 +100,12 @@ h2 {
 }
 
 iframe{
+    display: block;
+    position: relative;
     width: 350px;
-    height: 500px;
+    height: 550px;
     margin: 20px 20px;
-    min-width: 350px;
+    min-width: 450px;
 }
 
 section#botoes > p{
@@ -136,9 +138,12 @@ section#botoes img:hover {
 }
 
 section#iframe {
+    position: relative;
+    display: block;
+    margin: auto;
     margin-top: 30px;
     background-image: linear-gradient(var(--cor4), var(--cor2));
-    padding: 20px;
     border-radius: 15px;
     box-shadow: 1px 0px 9px 3px rgba(0, 0, 0, 0.735);
+    max-width: 485px;
 }
