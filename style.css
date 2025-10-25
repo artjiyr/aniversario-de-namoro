@@ -100,12 +100,14 @@ h2 {
 }
 
 iframe{
-    display: block;
+    display: flex;
     position: relative;
     width: 350px;
     height: 550px;
-    margin: 20px 20px;
+    margin: 20px -44px;
     min-width: 450px;
+    justify-content: center;
+    align-items: center;
 }
 
 section#botoes > p{
@@ -143,13 +145,15 @@ section#botoes img:hover {
 
 section#iframe {
     position: relative;
-    display: block;
+    display: flex;
     margin: auto;
     margin-top: 30px;
     background-image: linear-gradient(rgb(244, 232, 237), var(--cor2), rgb(244, 232, 237));
     border-radius: 15px;
     box-shadow: 1px 0px 9px 3px rgba(0, 0, 0, 0.735);
     max-width: 485px;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -159,4 +163,8 @@ footer {
     text-align: center;
     font-size: 1.8em;
     font-family: var(--font1);
+}
+
+iframe#tela{
+    width: 350px;
 }
